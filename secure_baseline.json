@@ -1,0 +1,15 @@
+{
+  "deployment_model": "local-in-memory-simulation",
+  "storage": {
+    "public_access": false
+  },
+  "audit": {
+    "enabled": true
+  },
+  "identities": {
+    "guest": "none",
+    "doctor": "clinician",
+    "ops": "administrator",
+    "compliance": "auditor"
+  }
+}

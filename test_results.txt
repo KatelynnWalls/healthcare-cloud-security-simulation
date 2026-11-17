@@ -1,0 +1,19 @@
+test_insecure_example_detected (test_config.ConfigurationTests.test_insecure_example_detected) ... ok
+test_secure_baseline_passes (test_config.ConfigurationTests.test_secure_baseline_passes) ... ok
+test_audit_event_fields (test_security.SecurityTests.test_audit_event_fields) ... ok
+test_audit_records_allow_and_deny (test_security.SecurityTests.test_audit_records_allow_and_deny) ... ok
+test_auditor_cannot_read_patient_record (test_security.SecurityTests.test_auditor_cannot_read_patient_record) ... ok
+test_authorized_clinician_reads_synthetic_record (test_security.SecurityTests.test_authorized_clinician_reads_synthetic_record) ... ok
+test_excessive_privilege_detected (test_security.SecurityTests.test_excessive_privilege_detected) ... ok
+test_guest_cannot_read_private_storage (test_security.SecurityTests.test_guest_cannot_read_private_storage) ... ok
+test_missing_audit_logging_detected (test_security.SecurityTests.test_missing_audit_logging_detected) ... ok
+test_nonadmin_cannot_change_storage (test_security.SecurityTests.test_nonadmin_cannot_change_storage) ... ok
+test_nonadmin_cannot_escalate_privileges (test_security.SecurityTests.test_nonadmin_cannot_escalate_privileges) ... ok
+test_public_storage_exposure_detected (test_security.SecurityTests.test_public_storage_exposure_detected) ... ok
+test_storage_remediation (test_security.SecurityTests.test_storage_remediation) ... ok
+test_unknown_identity_denied (test_security.SecurityTests.test_unknown_identity_denied) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK
